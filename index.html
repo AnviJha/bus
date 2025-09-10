@@ -332,7 +332,7 @@
       const typingEl = addTyping();
 
       const controller = new AbortController();
-      const timeout = setTimeout(() => controller.abort(), 2000); // 2s timeout
+      const timeout = setTimeout(() => controller.abort(), 20000); // 2s timeout
 
       let payload = { user_id: DEFAULT_USER_ID, message: text };
 
